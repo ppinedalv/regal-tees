@@ -202,7 +202,7 @@ a { color: inherit; }
 
 /* ---------- Feature strip ---------- */
 .rt-strip {
-  background: var(--navy-950);
+  background: var(--burgundy);
   padding: 40px 0;
 }
 .rt-strip__grid {
@@ -227,7 +227,7 @@ a { color: inherit; }
 /* ---------- Generic section ---------- */
 .rt-section { padding: 96px 0; }
 .rt-section--navy {
-  background: linear-gradient(180deg, var(--navy-900), var(--navy-800));
+  background: var(--burgundy);
   color: var(--white);
 }
 .rt-section--navy h2 { color: var(--white); }
@@ -360,7 +360,8 @@ a { color: inherit; }
 
 /* ---------- Footer ---------- */
 .rt-footer {
-  background: var(--navy-950);
+  background: var(--burgundy);
+  border-top: 3px solid var(--gold-500);
   color: rgba(255, 255, 255, 0.75);
   padding: 48px 0;
 }
@@ -373,7 +374,7 @@ a { color: inherit; }
   letter-spacing: 0.03em;
   margin-bottom: 18px;
 }
-.rt-footer__copy { font-size: 0.85rem; color: rgba(255, 255, 255, 0.5); margin: 0; }
+.rt-footer__copy { font-size: 0.85rem; color: rgba(255, 255, 255, 0.72); margin: 0; }
 
 /* ===========================================================
    Responsive
